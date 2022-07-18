@@ -22,7 +22,6 @@
   ],
 
   "kmods": {
-    "evdev.ko":"",
     "button.ko":""
   },
 
