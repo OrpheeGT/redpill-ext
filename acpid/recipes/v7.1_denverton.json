@@ -1,0 +1,32 @@
+{
+   "mod_version": "v1",
+   "files": [
+    {
+      "name": "install-acpi.sh",
+      "url": "https://github.com/OrpheeGT/redpill-ext/raw/master/acpid/install-acpi.sh",
+      "sha256": "c3429c9fc5d82eee8d39fd4d7f0fe19c3a4263a2c3c2ab9dcf483b0e24786fc7",
+      "packed": false
+    },
+    {
+      "name": "pwrbtn-module-v7.1-denverton.tgz",
+      "url": "https://github.com/OrpheeGT/redpill-ext/raw/master/acpid/modules/pwrbtn-module-v7.1-denverton.tgz",
+      "sha256": "d04f55f22dd3faa59687be2d259d61030cfbb890f8ff55cf25c75c71a444a2e8",
+      "packed": true
+    },
+    {
+      "name": "pwrbtn_pkg.tgz",
+      "url": "https://github.com/OrpheeGT/redpill-ext/raw/master/acpid/pkg/pwrbtn_pkg_v2.tgz",
+      "sha256": "43bacbcb3ad45c0c0bcfb7267ec4d694c54fd822e442814183c5f6def2832827",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "evdev.ko":"",
+    "button.ko":""
+  },
+
+  "scripts": {
+    "on_os_load": "install-acpi.sh"
+  }
+}
